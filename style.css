@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@500;600&family=Teko:wght@500&display=swap');
+*{
+    box-sizing: border;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height:500px;
+    width: 350px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 10px 20px 20px rgb(0,0,0,0.8);
+    padding: 20px;
+    overflow-y: scroll;
+
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+.container form{
+    width: 100%;
+    border: 1px solid greenyellow;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    width: 100%;
+}
+.product-list{
+    width: 100%;
+    padding: 20px 0;
+    /* border: 2px solid green; */
+}
+.product{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 15px;
+}
+.product img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.p-details h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+.p-details h3{
+    font-size: 15px;
+
+}
